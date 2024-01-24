@@ -1,0 +1,23 @@
+.history-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    padding: 10px;
+    padding-top: 40px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    color: white;
+    background-color: #000000;
+    margin-right: 15px;
+
+    .counter-label {
+        padding-left: 20px;
+        font-family: Inter;
+        font-size: 45px;
+        font-weight: 500;
+        line-height: 55px;
+        letter-spacing: -0.06em;
+        text-align: left;
+    }
+}

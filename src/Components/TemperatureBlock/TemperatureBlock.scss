@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "Inter";
+    src: url("../../fonts/Inter-V.ttf");
+}
+
+.temperature-block {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(
+        125.57deg,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(0, 255, 87, 0.6) 100%
+    );
+
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 60px;
+    color: black;
+    font-family: Inter;
+
+    &.exceed {
+        background: linear-gradient(
+            125.57deg,
+            rgba(255, 255, 255, 0) 0%,
+            rgba(255, 138, 122, 0.6) 100%
+        );
+    }
+
+    div {
+        font-size: 150px;
+        font-weight: 500;
+        text-align: left;
+        margin-bottom: -30px;
+    }
+    p {
+        font-size: 30px;
+        letter-spacing: -0.06em;
+        text-align: left;
+        margin-top: 0;
+        font-weight: 1000;
+    }
+}

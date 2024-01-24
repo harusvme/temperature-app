@@ -1,0 +1,32 @@
+.status-block {
+    position: relative;
+    border-radius: 20px;
+    padding: 60px;
+
+    &.normal {
+        background-color: #7affa7;
+    }
+
+    &.exceed {
+        background-color: #ff8a7a;
+    }
+
+    .status-message {
+        font-family: Inter;
+        font-size: 79px;
+        font-weight: 500;
+        line-height: 89px;
+        letter-spacing: -0.06em;
+        text-align: left;
+    }
+    .indicators-message {
+        position: absolute;
+        bottom: 50px;
+        font-family: Inter;
+        font-size: 34px;
+        font-weight: 400;
+        line-height: 34px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+}
